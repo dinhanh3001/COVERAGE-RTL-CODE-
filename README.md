@@ -2,8 +2,10 @@
 - Corner test is a directed test, engineers wil predit the case that can be wrong and conduct a test in these situation.
 - Random test with constraint is a way to divided in some groups test case that have a common behaviorals.
 - Coverage code is a way to evaluate the coverage of your test bench. It's mean, it caculate how many percent that your test case passed. It includes 5 basic level: Line coverage( how many line executed ?), Branch/Decision coverage ( Do it pass all of the case command or if-else command ?),Condition coverage, Toggle coverage (how many percent nets,regs in the design passed 0-> 1 and 1->0),FSM coverage.  
-#I will use adder 2 bit in this example. In reality, we just need 5 test case ( (a =0,b=0, cin = random), (a =2'b11, b = 2'b11, c=random), (a = 2'b01, b = 2'b11,c = random), (a= 2'b01,b=2'b01 ,cin =1'b1)) to have 100 % coverage, but this project, i want to introduce full steps to evaluate the coverage. So I will divided 32 test case
-in 4 groups that have common behavioral and in each test case, i will test 50 % of them.
+#I will use adder 2 bit in this example.
+- In reality, we just need 5 test case ( (a =0,b=0, cin = random), (a =2'b11, b = 2'b11, cin=random), (a = 2'b01, b = 2'b11,c in= random), (a= 2'b01,b=2'b01 ,cin =1'b1)) to have 100 % coverage, but this project, i want to introduce full steps to evaluate the coverage. So I will divided 32 test case in 4 groups that have common behavioral and in each group, i will test 50 % of them.
+- you can see full test case in this link https://docs.google.com/spreadsheets/d/193wmhlbT23gKpbj-lhOqXWLFIP-LWbb1HDkXRKt6r3g/edit?usp=sharing
+the fisrt row is A, seconde row is Cin and the last row is B.
 # We have three input A, B, Cin and two output Count, sum.
 <img width="817" height="311" alt="image" src="https://github.com/user-attachments/assets/70060815-4e27-485b-b7da-1002cab6d9c9" />
 
