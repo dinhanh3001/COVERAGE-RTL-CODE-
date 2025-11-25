@@ -1,0 +1,33 @@
+module CORNER_TEST; 
+   reg [1:0] a, b ; 
+   reg cin; 
+   wire [1:0] sum; 
+   wire count; 
+   
+   ADDER_2BIT UUT(.cin(cin),.a(a),.b(b),.sum(sum),.count(count)) ;
+   initial begin
+     // th1: hai so be nhat 
+     cin = 1'b0; 
+     a = 2'b0; b = 2'b0;  
+     // th2: hai so lon nhat
+     #5; 
+     a = 2'b11; b = 2'b11;
+     // th3: 
+     #5; 
+     a = 2'b01; b = 2'b11; 
+     // th4: 
+     #5; 
+     a = 2'b01 ; b = 2'b01; 
+     cin = 1'b1;
+    // #5;
+    // a = 2'b00; // a[0] chuyen tu 1 -> 0
+    //b = 2'b00; // b[0] chuyen tu 1 -> 0
+    //cin = 1'b0; // cin chuyen tu 1 -> 0 
+    #5; 
+     $stop;  
+end 
+initial begin 
+  $display("BAT DAU MO PHONG "); 
+  $monitor("a = %0b, b  =%0b, cin = %0b, sum= %0b, count = %0b", a, b, cin, sum, count);
+ end  
+endmodule 

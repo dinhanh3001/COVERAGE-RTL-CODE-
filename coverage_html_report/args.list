@@ -1,0 +1,4 @@
+-html
+-htmldir
+./coverage_html_report
+*.ucdb

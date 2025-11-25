@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dE:/HE_THONG_SO_HDL/THUC_HANH/CORNER_RANDOM_TEST
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z1 VA1KWa>O^F7n?=Gf:LKj551
+Z2 04 11 4 work CORNER_TEST fast 0
+Z3 =1-e89c251dfeba-691871c9-2f1-82e4
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;10.2c;57
+Z7 dE:/HE_THONG_SO_HDL/THUC_HANH/CORNER_RANDOM_TEST
+Z8 !s110 1763209673
+vADDER_2BIT
+Z9 IZ2o<B5HYJETb=JUPGTIRF1
+Z10 V`JN@9S9cnhjKRR_L]QIcM3
+R7
+Z11 w1763142053
+Z12 8ADDER_2BIT.v
+Z13 FADDER_2BIT.v
+L0 1
+Z14 OL;L;10.2c;57
+r1
+31
+Z15 o-coveropt 3 +cover +acc
+Z16 n@a@d@d@e@r_2@b@i@t
+Z17 !s110 1763210014
+!i10b 1
+Z18 !s100 EMK<Tdf72Fo^b@Tcch8Dn2
+!s85 0
+Z19 !s108 1763210014.925000
+Z20 !s107 ADDER_2BIT.v|
+Z21 !s90 -reportprogress|300|-coveropt|3|+cover|+acc|ADDER_2BIT.v|
+!i111 0
+Z22 !s102 -coveropt 3 +cover
+vCORNER_TEST
+!s110 1763210023
+!i10b 1
+!s100 _LTBo[]bJUI`ERL8ES]ie2
+I7ff5znbKm<3;>A<FZK=iY2
+R10
+R7
+w1763209411
+8CORNER_TEST.v
+FCORNER_TEST.v
+L0 1
+R14
+r1
+!s85 0
+31
+!s108 1763210023.300000
+!s107 CORNER_TEST.v|
+!s90 -reportprogress|300|-coveropt|3|+cover|+acc|CORNER_TEST.v|
+!i111 0
+R22
+R15
+n@c@o@r@n@e@r_@t@e@s@t

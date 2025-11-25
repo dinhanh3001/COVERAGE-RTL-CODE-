@@ -1,0 +1,29 @@
+Coverage Report Summary Data by file
+
+File: ADDER_2BIT.v
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                            1         1         0     100.0
+    Branches                         0         0         0     100.0
+    FEC Condition Terms              0         0         0     100.0
+    FEC Expression Terms             0         0         0     100.0
+    FSMs                                                       100.0
+        States                       0         0         0     100.0
+        Transitions                  0         0         0     100.0
+    Toggle Bins                     10         7         3      70.0
+
+File: CORNER_TEST.v
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           17        17         0     100.0
+    Branches                         0         0         0     100.0
+    FEC Condition Terms              0         0         0     100.0
+    FEC Expression Terms             0         0         0     100.0
+    FSMs                                                       100.0
+        States                       0         0         0     100.0
+        Transitions                  0         0         0     100.0
+    Toggle Bins                     16        12         4      75.0
+
+
+Total Coverage By File (code coverage only, filtered view): 86.5%
+
