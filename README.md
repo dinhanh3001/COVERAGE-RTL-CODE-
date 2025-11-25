@@ -9,7 +9,7 @@
 # We have three input A, B, Cin and two output Count, sum.
 <img width="817" height="311" alt="image" src="https://github.com/user-attachments/assets/70060815-4e27-485b-b7da-1002cab6d9c9" />
 
-# We have 5 bits input so it have 32 test case and they are divided in 4 group: 
+# We have 5 bits input so it have 32 test case and they are divided into 4 group: 
 <img width="895" height="469" alt="image" src="https://github.com/user-attachments/assets/c6b60186-3745-42e3-af5e-ac31d8875916" />
 <img width="801" height="379" alt="image" src="https://github.com/user-attachments/assets/e24dffd6-1c6c-4f70-b144-f01470f9320e" />
 <img width="901" height="467" alt="image" src="https://github.com/user-attachments/assets/227a44ce-aaeb-481a-94ca-fb9a2aa8770f" />
