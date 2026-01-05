@@ -24,4 +24,7 @@
 
 <img width="556" height="375" alt="image" src="https://github.com/user-attachments/assets/511a9e31-0f8e-44a1-a614-513b9b039590" />
 
+## Contact: 
+* Author: Nguyen Dinh Anh
+* Email: anhdinh30012005@gmail.com
 
