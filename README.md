@@ -1,12 +1,40 @@
 # RTL COVERAGE CODE 
-## Firstly, what is the corner test, random test with constraint and coverage-rtl code ? 
-- Corner test is a directed test, engineers wil predit the case that can be wrong and conduct a test in these cases.
-- Random test with constraint is a way to divided in some groups test case that have a common behaviorals.
-- Coverage code is a way to evaluate the coverage of your test bench. It's mean, it caculate how many percent that your test case passed. It includes 5 basic level: Line coverage( how many line executed ?), Branch/Decision coverage ( Do it pass all of the case command or if-else command? ),Condition coverage, Toggle coverage (how many percent nets,regs in the design passed 0-> 1 and 1->0),FSM coverage.  
-## I will use adder 2 bit in this example.
-- In reality, we just need 5 test case ( (a =0,b=0, cin = random), (a =2'b11, b = 2'b11, cin=random), (a = 2'b01, b = 2'b11,c in= random), (a= 2'b01,b=2'b01 ,cin =1'b1)) to have 100 % coverage, but this project, I want to introduce full steps to evaluate the coverage. So I will divided 32 test cases in 4 groups that have common behavioral and in each group, I will test 50 % of them.
-- You can see full test case in this link https://docs.google.com/spreadsheets/d/193wmhlbT23gKpbj-lhOqXWLFIP-LWbb1HDkXRKt6r3g/edit?usp=sharing
- .The fisrt row is A, seconde row is Cin and the last row is B.
+## What does this project do?
+
+This repository explains:
+
+- What is corner testing and how to design them
+- How to write constrained random tests
+- How to generate and evaluate coverage reports (line, branch, condition, toggle, FSM)
+
+## First, what are corner tests, constrained random tests, and RTL coverage?
+
+- A corner test is a type of directed test. Engineers predict corner cases that are likely to cause failures and design test cases to verify these situations.
+
+- A constrained random test is a testing method where random test cases are generated under specific constraints. These constraints divide test cases into groups that share common behaviors.
+
+- Coverage code is used to evaluate how thoroughly the testbench exercises the design. It measures the percentage of the design that has been executed during simulation. There are five basic coverage types:
+  - Line coverage (how many lines are executed)
+  - Branch/Decision coverage (whether all branches of if/else or case statements are executed)
+  - Condition coverage
+  - Toggle coverage (how many signals transition from 0→1 and 1→0)
+  - FSM coverage
+
+## Example: 2-bit adder
+
+- In practice, only five test cases are sufficient to achieve 100% coverage:
+  - (a = 0, b = 0, cin = random)
+  - (a = 2'b11, b = 2'b11, cin = random)
+  - (a = 2'b01, b = 2'b11, cin = random)
+  - (a = 2'b01, b = 2'b01, cin = 1'b1)
+
+- However, in this project, I want to demonstrate the full process of coverage evaluation. Therefore, I divide 32 test cases into 4 groups with common behaviors, and in each group, I test 50% of the cases.
+
+- You can find the full list of test cases at the following link:  
+  https://docs.google.com/spreadsheets/d/193wmhlbT23gKpbj-lhOqXWLFIP-LWbb1HDkXRKt6r3g/edit?usp=sharing  
+
+  The first row is A, the second row is Cin, and the last row is B.
+
 ## We have three input A, B, Cin and two output Count, sum.
 <img width="817" height="311" alt="image" src="https://github.com/user-attachments/assets/70060815-4e27-485b-b7da-1002cab6d9c9" />
 
