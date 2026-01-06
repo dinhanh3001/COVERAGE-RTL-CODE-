@@ -20,7 +20,8 @@
 <img width="652" height="406" alt="image" src="https://github.com/user-attachments/assets/b09a63b3-512e-44f0-8e70-4aeb41b413e7" />
 <img width="654" height="422" alt="image" src="https://github.com/user-attachments/assets/57c77689-de67-4b60-8009-4b286badf504" />
 
-> You can see that the coverage is 100 %. It's mean, my test bench is passed all of my RTL code, it includes: Line, branch/decision, condition, toggle and FSM. But you have to remember that the 100 % coverage just ensure your code is traversed and executed all paths in your design and it doesn't ensure you have a right result. You must compare the result of design and your result in these case.
+## NOTE 
+* You can see that the coverage is 100 %. It's mean, my test bench is passed all of my RTL code, it includes: Line, branch/decision, condition, toggle and FSM. But you have to remember that the 100 % coverage just ensure your code is traversed and executed all paths in your design and it doesn't ensure you have a right result. You must compare the result of design and your result in these case.
 
 <img width="556" height="375" alt="image" src="https://github.com/user-attachments/assets/511a9e31-0f8e-44a1-a614-513b9b039590" />
 
